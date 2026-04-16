@@ -1,0 +1,4 @@
+# Scripts
+# Ignore the following files
+scripts/*.js
+scatter.js
