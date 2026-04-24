@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My cool DATA 1500 Project</title>
+        <title>The Rise of China: Beyond the Economic Shock</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,19 +9,120 @@
         <script src="https://d3js.org/d3.v7.min.js"></script>
     </head>
     <body>
-        <h1>My DATA 1500 Project</h1>
-        <h2> Jimmy Lin</h2>
-        <div id = "divider"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src = "images/rhode_island.png"
-        alt = "100% stacked area chart of the population share of the five counties of Rhode Island, showing that Providence's share declined starting around WWII."
-        >
+        <header>
+            <h1>The Rise of China: Standard of Living Improvements</h1>
+            <h2>By Jimmy Lin</h2>
+            <div id="divider"></div>
+        </header>
 
-        <h2> About this story</h2>
-        <p>Here's a <a href="https://www.brown.edu/">link</a>.</p>
-        <img src = "images/250903_First_Day-306.jpg">
+        <section id="hero">
+            <div class="image-container">
+                <!-- User to find side-by-side picture of Shenzhen 1980 vs 2025 -->
+                <img src="images/rhode_island.png" alt="Placeholder for Shenzhen 1980 vs 2025">
+                <p class="caption">Outline: (Picture of Shenzhen 1980 vs now) (find a side-by-side picture)</p>
+            </div>
+        </section>
+
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                Much attention has been paid to the rapid economic rise of China—the so-called "China Shock." 
+                While global markets and policy experts focus on trade balances and industrial capacity, 
+                less attention is often given to the dramatic increase in the standard of living for 
+                hundreds of millions of Chinese residents.
+            </p>
+            <div id="myChart" class="chart-container">
+                <!-- Placeholder for existing scatter plot work -->
+            </div>
+        </section>
+
+        <section id="hdi">
+            <h2>The Human Development Index (HDI)</h2>
+            <p>
+                China's rise from a low to high Human Development Index (HDI) in just 20 years is a world first. 
+                HDI is a summary measure of average achievement in key dimensions of human development: 
+                a long and healthy life, being knowledgeable, and having a decent standard of living.
+            </p>
+            <div id="hdi-chart" class="chart-container">
+                <!-- D3 Chart: China's HDI Growth -->
+            </div>
+            <p>
+                The index is calculated using three main components: life expectancy at birth, 
+                mean and expected years of schooling, and Gross National Income (GNI) per capita.
+            </p>
+        </section>
+
+        <section id="mao-years">
+            <h2>Foundations: The Mao Years</h2>
+            <p>
+                To understand this growth, we must look at the prerequisite improvements made in earlier decades. 
+                During the Mao years (1950–1980), China saw a significant increase in life expectancy, 
+                which formed the baseline for later economic growth.
+            </p>
+            <div id="life-expectancy-chart" class="chart-container">
+                <!-- D3 Chart: Life expectancy at birth, total (years) - China -->
+            </div>
+            <blockquote>
+                "Explain life expectancy increase formed the prerequisite growth for later economic growth"
+            </blockquote>
+            <p>
+                Further Reading: <a href="#">An exploration of China's mortality decline under Mao: A provincial analysis, 1950–80</a>
+            </p>
+        </section>
+
+        <section id="reform">
+            <h2>Reform and Opening Up</h2>
+            <p>
+                A brief discussion of the Reform and Opening Up policy initiated in the late 1970s, 
+                which transitioned China toward a market-oriented economy while maintaining socialist frameworks.
+            </p>
+        </section>
+
+        <section id="poverty-reduction">
+            <h2>Poverty Reduction (1981–Present)</h2>
+            <p>
+                Since 1981, China has achieved unprecedented success in poverty reduction. 
+                This was not simply a passive byproduct of economic growth; specific efforts and 
+                policies were implemented to ensure that growth translated into poverty alleviation.
+            </p>
+            <div id="poverty-chart" class="chart-container">
+                <!-- D3 Chart: Poverty reduction from 1981 onwards -->
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Increasing Educational Attainment</h2>
+            <p>
+                Alongside health and income, education has been a pillar of China's development. 
+                Study shows that educational attainment has seen consistent increases across generations.
+            </p>
+        </section>
+
+        <section id="future">
+            <h2>The Future: Growth and Challenges</h2>
+            <p>
+                What does the future hold? While some imagine a world of "kung-fu robots," 
+                real-world projections often focus on the potential slowdown of China's economic growth 
+                and the demographic challenges ahead.
+            </p>
+            <img src="images/250903_First_Day-306.jpg" alt="Future visualization placeholder">
+        </section>
+
+        <section id="extras">
+            <h2>Further Insights</h2>
+            <ul>
+                <li><strong>Government Approval:</strong> Polls consistently show high levels of domestic approval for the government's performance.</li>
+                <li><strong>Wage Growth in Asia:</strong> China and Vietnam are seeing wage growth much faster than the regional average.</li>
+                <li><strong>Comparison with Vietnam:</strong> A look at China's socialist market economy vs. Vietnam's socialist-oriented market economy.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <div id="divider"></div>
+            <p>&copy; 2026 Jimmy Lin | DATA 1500 Final Project</p>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="scripts/scatter.js"></script>
     </body>
 </html>
