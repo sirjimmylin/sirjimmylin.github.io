@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Rise of China: Beyond the Economic Shock</title>
+        <title>The Development of China</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +11,11 @@
         <script src="https://d3js.org/d3.v7.min.js"></script>
     </head>
     <body>
-        <header>
-            <h1>The Rise of China: Standard of Living Improvements</h1>
-            <h2>By Jimmy Lin</h2>
-            <div id="divider"></div>
-        </header>
-
         <section id="hero">
+            <div class="hero-content">
+                <h1>The Development of China</h1>
+                <p class="author">Jimmy Lin</p>
+            </div>
             <div class="image-container">
                 <img src="images/Shanghai1996v2017.jpeg" alt="Shanghai 1996 vs 2017">
                 <p class="caption">(Picture of Shanghai 1996 vs 2017)</p>
@@ -45,16 +43,26 @@
             <p>So how did China develop so rapidly?</p>
         </section>
 
-        <section id="a-new-beginning">
-            <h2>A New Beginning</h2>
-            <blockquote>
-                “Ours will no longer be a nation subject to insult and humiliation. We have stood up.”
-                <br>— Mao Zedong (毛泽东）
-            </blockquote>
-            <div class="image-container">
-                <img src="images/mao.jpeg" alt="Mao declaring the founding of the PRC">
+        <!-- Scrolly Section 1 -->
+        <div class="scrolly-container" id="scrolly-a-new-beginning">
+            <div class="sticky-bg-wrapper">
+                <div class="scrolly-bg" style="background-image: url('images/Mao_Proclaiming_New_China.JPG')"></div>
                 <p class="caption">(Picture of Mao declaring the founding of the PRC)</p>
             </div>
+            <div class="scrolly-steps">
+                <div class="scrolly-step">
+                    <h2>A New Beginning</h2>
+                </div>
+                <div class="scrolly-step">
+                    <blockquote>
+                        “Ours will no longer be a nation subject to insult and humiliation. We have stood up.”
+                        <br>— Mao Zedong (毛泽东）
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <section id="a-new-beginning" class="content-section">
             <p>
                 The Communist victory in the <a href="https://en.wikipedia.org/wiki/Chinese_Civil_War" target="_blank">Chinese Civil War</a> and the establishment of the People’s Republic
                 of China (PRC) marked the end of <a href="https://brownpoliticalreview.org/the-century-of-humiliation-and-the-century-after/" target="_blank">China’s Century of Humiliation</a>.
@@ -76,7 +84,7 @@
             <p>
                 While there were some setbacks, such as a massive famine during the Great Leap Forward
                 from 1958-1962 (O Grada, 2009), the CPC learned from its mistakes. In fact, the Great Leap
-                Forward represented the last famine in Chinese history, a remarkable feat given how famines
+                Forward represented the last famine in Chinese history, a remarkabl feat given how famines
                 were a regular occurrence throughout Chinese history. (O Grada, 2009)
             </p>
             <p>
@@ -86,14 +94,28 @@
             </p>
         </section>
 
-        <section id="reform-and-opening-up">
-            <h2>Reform and Opening Up</h2>
-            <blockquote>
-                “To build socialism it is necessary to develop the productive forces. Poverty
-                is not socialism. To uphold socialism, a socialism that is to be superior to
-                capitalism, it is imperative first and foremost to eliminate poverty.”
-                <br>— Deng Xiaoping （邓小平）
-            </blockquote>
+        <!-- Scrolly Section 2 -->
+        <div class="scrolly-container" id="scrolly-reform-and-opening-up">
+            <div class="sticky-bg-wrapper">
+                <div class="scrolly-bg" style="background-image: url('images/Shenzhen_dev.jpeg')"></div>
+                <p class="caption">(Shenzhen 1980 vs 2025)</p>
+            </div>
+            <div class="scrolly-steps">
+                <div class="scrolly-step">
+                    <h2>Reform and Opening Up (改革开放）</h2>
+                </div>
+                <div class="scrolly-step">
+                    <blockquote>
+                        “To build socialism it is necessary to develop the productive forces. Poverty
+                        is not socialism. To uphold socialism, a socialism that is to be superior to
+                        capitalism, it is imperative first and foremost to eliminate poverty.”
+                        <br>— Deng Xiaoping （邓小平）
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <section id="reform-and-opening-up" class="content-section">
             <p>
                 Towards the end of the Mao era, China found itself in the midst of much turmoil, especially
                 during the Cultural Revolution. The “<a href="https://www.britannica.com/topic/Gang-of-Four" target="_blank">Gang of Four</a>” gained strong influence and pulled the
@@ -127,19 +149,29 @@
             </p>
         </section>
 
-        <section id="looking-ahead">
-            <h2>Looking Ahead</h2>
-            <blockquote>
-                "Scientific and technological innovation can generate new industries, new models, and
-                new growth drivers, which are the core elements of the development of new quality
-                productive forces... We must accelerate the development of new quality productive
-                forces and solidly promote high-quality development."
-                <br>— Xi Jinping （习近平）
-            </blockquote>
-            <div class="image-container">
-                <img src="images/flyingcar.jpeg" alt="Future visualization - Flying car">
-                <p class="caption">(picture of flying car here)</p>
+        <!-- Scrolly Section 3 -->
+        <div class="scrolly-container" id="scrolly-looking-ahead">
+            <div class="sticky-bg-wrapper">
+                <div class="scrolly-bg" style="background-image: url('images/flyingcar.jpeg')"></div>
+                <p class="caption">(Future visualization - Flying car)</p>
             </div>
+            <div class="scrolly-steps">
+                <div class="scrolly-step">
+                    <h2>Looking Ahead</h2>
+                </div>
+                <div class="scrolly-step">
+                    <blockquote>
+                        "Scientific and technological innovation can generate new industries, new models, and
+                        new growth drivers, which are the core elements of the development of new quality
+                        productive forces... We must accelerate the development of new quality productive
+                        forces and solidly promote high-quality development."
+                        <br>— Xi Jinping （习近平）
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <section id="looking-ahead" class="content-section">
             <p>
                 What lies ahead for China? Whether that be building the <a href="https://en.wikipedia.org/wiki/High-speed_rail_in_China" target="_blank">world’s largest high-speed rail network</a>,
                 <a href="https://time.com/7210296/chinese-ai-company-deepseek-stuns-american-ai-industry/" target="_blank">the release of competitive AI models like DeepSeek</a>, or <a href="https://www.technologyreview.com/2025/07/10/1119941/china-energy-dominance-three-charts/" target="_blank">China’s dominance in green energy</a>, it’s
@@ -170,5 +202,6 @@
         </footer>
 
         <script src="scripts/scatter.js"></script>
+        <script src="scripts/scrolly.js"></script>
     </body>
 </html>
