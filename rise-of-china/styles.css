@@ -199,19 +199,19 @@ h2 {
 
 .chart-container {
     width: 100%;
-    height: 400px;
-    background-color: #f9f9f9;
-    border: 1px dashed #ccc;
     margin: 20px 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-    color: #999;
 }
 
-.chart-container::after {
-    content: "Chart Placeholder (D3.js)";
+.chart-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 blockquote {
