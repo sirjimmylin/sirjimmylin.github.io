@@ -5,5 +5,4 @@ scatter.js
 
 
 # Ignore the following directories
-node_modules/
 .DS_Store
